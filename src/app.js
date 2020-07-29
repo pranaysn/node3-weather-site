@@ -36,7 +36,7 @@ app.use(express.static(publicDirectoryPath))//custmize server
 app.get('', (req, res) => {
     res.render('index',{
         title: 'Weather',
-        name: 'Pranay'
+        name: 'Pranay Shende'
     })  //this is need to match with file under view folder ex. index without extenstion
         // rendering = create file anywhere and run it using express
 })
@@ -45,14 +45,14 @@ app.get('', (req, res) => {
 app.get('/about', (req, res) =>{
     res.render('about', {
         title: 'About me',
-        name: 'Pranay'
+        name: 'Pranay Shende'
     })
 })
 
 app.get('/help', (req, res) =>{
     res.render('help',{
         title: 'Help',
-        name: 'Pranay',
+        name: 'Pranay Shende',
         helpText: 'This is some helpful text'
     })
 })
@@ -126,14 +126,14 @@ app.get('/product', (req, res) => {
 app.get('/help/*',(req, res)=>{
     res.render('404', {
         title: '404 error',
-        name: 'Pranay',
+        name: 'Pranay Shende',
         errorMsg: 'Help article not found.'
     })    
 })
 app.get('*', (req, res )=> {
     res.render('404', {
         title: '404 error',
-        name: 'Pranay',
+        name: 'Pranay Shende',
         errorMsg: 'Page not found.'
 
     })
