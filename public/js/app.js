@@ -1,6 +1,6 @@
 console.log('Client side server is running !')
 
-
+console.log('changes made via git')
 
 const weatherForm = document.querySelector('form')
 const searchElement = document.querySelector('input')
