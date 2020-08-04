@@ -48,7 +48,7 @@ app.get('/about', (req, res) =>{
     res.render('about', {
         title: 'About me',
         name: 'Pranay Shende',
-        bio: "I'm Pranay Shende and currently working in Atos Global IT, Pune. \nGraduated from PICT(Pune)-ENTC and exploring new technologies of computer science."
+        bio: "I'm Pranay Shende and currently working in Atos Global IT, Pune.<br />Graduated from PICT(Pune)-ENTC and exploring new technologies of computer science."
     })
 })
 
